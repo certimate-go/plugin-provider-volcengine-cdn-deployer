@@ -10,12 +10,12 @@ import (
 	ve "github.com/volcengine/volcengine-go-sdk/volcengine"
 	vesession "github.com/volcengine/volcengine-go-sdk/volcengine/session"
 
-	vecdn "github.com/certimate-go/plugin-provider-volcengine-cdn/internal/volcsdk/cdn"
+	vecdn "github.com/certimate-go/plugin-provider-volcengine-cdn-deployer/internal/volcsdk/cdn"
 
 	"github.com/certimate-go/certimate/pkg/core"
 	xcerthostname "github.com/certimate-go/certimate/pkg/utils/cert/hostname"
 	xloop "github.com/certimate-go/certimate/pkg/utils/loop"
-	cmgrimpl "github.com/certimate-go/plugin-provider-volcengine-cdn/internal/certmgr/volcengine-cdn"
+	cmgrimpl "github.com/certimate-go/plugin-provider-volcengine-cdn-deployer/internal/certmgr/volcengine-cdn"
 )
 
 type (

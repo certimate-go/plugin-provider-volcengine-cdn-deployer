@@ -1,4 +1,4 @@
-module github.com/certimate-go/plugin-provider-volcengine-cdn
+module github.com/certimate-go/plugin-provider-volcengine-cdn-deployer
 
 go 1.27.4
 
